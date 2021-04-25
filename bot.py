@@ -52,6 +52,8 @@ def getMessage():
 
 @server.route(f'/{token}/resetWebhookUrl')
 def reset_webhook_url():
+    global heroku_app_name
+    global token
     bot.remove_webhook()
     bot.set_webhook(url=f'https://{heroku_app_name}.herokuapp.com/{token}')
     return 'done', 200
