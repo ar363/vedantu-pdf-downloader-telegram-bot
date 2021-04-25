@@ -17,7 +17,7 @@ welcome_message = """
 
 <i>How to Use?</i>
 
-Paste a valid Vedantu page URL that contains the <i>"Download PDF"</i> option and begins with <i>https://www.vedantu.com/</i>
+Paste a valid Vedantu page URL that contains the <i>"Download PDF"</i> option and begins with <code>https://www.vedantu.com/</code>
 
 Done! You would recieve the PDF file. No registration to Vedantu required.
 
