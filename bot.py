@@ -20,6 +20,8 @@ welcome_message = """
 Paste a valid Vedantu page URL that contains the <i>"Download PDF"</i> option and begins with <i>https://www.vedantu.com/</i>
 
 Done! You would recieve the PDF file. No registration to Vedantu required.
+
+View the code here: https://github.com/ar363/vedantu-pdf-downloader-telegram-bot
 """
 
 @bot.message_handler(commands=['start', 'help'])
